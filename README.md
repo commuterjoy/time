@@ -1,18 +1,21 @@
-# Quickstart
 
-```
-npm install
-./test.sh
-open example.html
-```
+Attempt to copy [com.twitter.conversions.time](https://github.com/twitter/util), where 'time' is represented as properties of integers.
 
 ## Usage
 
 ```
-(1).second() // _returns 1000_
+// returns 1000
+(1).second();
 
-(8).seconds() // _returns 8000_
+// returns 8000
+(8).seconds();
+```
 
+## Test
+
+```
+npm install
+./test.sh
 ```
 
 
