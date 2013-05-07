@@ -1,0 +1,19 @@
+<html>
+    <body>
+
+    <script src="vendor/curl.js"></script> 
+    
+    <script>
+        curl(['lib/time.js'])
+            .then(function(time) {
+
+               (1).second()
+                
+            }, function() { 
+                console.error('curl.js failed to load')
+            });
+    </script>
+
+    </body>
+</html>
+
